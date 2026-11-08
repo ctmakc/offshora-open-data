@@ -1,0 +1,15 @@
+site_name: Offshora Open Data
+site_description: Documentation for four open datasets on international company formation, KYC/KYB, jurisdiction comparisons and annual compliance, compiled from the Offshora knowledge base.
+site_url: https://offshora-open-data.readthedocs.io/
+repo_url: https://github.com/ctmakc/offshora-open-data
+theme:
+  name: readthedocs
+nav:
+  - Overview: index.md
+  - Datasets:
+      - Jurisdiction comparisons: jurisdiction-comparisons.md
+      - Corporate KYC and KYB checklist: kyc-kyb-checklist.md
+      - Company structure tax tables: company-structure-tax-tables.md
+      - Annual compliance calendar: compliance-calendar.md
+  - Data format: data-format.md
+  - Sources and corrections: sources.md
